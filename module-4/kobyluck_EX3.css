@@ -1,0 +1,51 @@
+body {
+  font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  font-weight: 500;
+}
+
+li {
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  float: right;
+}
+
+a:hover {
+  color: darkblue;
+}
+
+.side-by-side {
+  width: 45%;
+  float: left;
+  border-color: red;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 1.75%;
+}
+
+#left-div {
+  border-style: solid;
+  list-style: inside;
+  list-style-position: inside;
+}
+
+#right-div {
+  border-style: dashed;
+  list-style: upper-roman;
+  list-style-position: inherit;
+}
+
+#last-div {
+  width: 100%;
+  margin-top: 60%;
+  margin-bottom: 20px;
+}
