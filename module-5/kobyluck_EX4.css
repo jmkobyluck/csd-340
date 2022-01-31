@@ -1,0 +1,40 @@
+body {
+	font-family: "Oswald", Verdana, Arial, sans-serif;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 5px;
+	border-style: solid;
+	border-radius: 15px;
+}
+.grid-item {
+	padding: 20px;
+	font-size: 30px;
+	text-align: center;
+}
+
+#image-gallery {
+	margin-top: 10%;
+}
+
+h1 {
+	text-align: center;
+	font-weight: 400;
+}
+
+img {
+	width: 400px;
+	height: 350px;
+}
+
+h3 {
+	text-align: center;
+	font-weight: 400;
+}
+
+figcaption {
+	font-style: italic;
+	font-size: 0.75em;
+}
